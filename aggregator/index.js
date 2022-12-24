@@ -51,7 +51,7 @@ exports.handler = async (event) => {
     }
 
     var month = months[new Date().getMonth()]
-    var message = is_success ? `Transactions for last week has been successfully aggregated 😊!` : `Unable to aggregated transactions for last week 😞`
+    var message = is_success ? `Transactions for last week has been successfully aggregated 😊!` : `Unable to aggregate transactions for last week 😞`
     await bot.sendMessage(chatId, message).then(x => {
         // return success
         const response = {

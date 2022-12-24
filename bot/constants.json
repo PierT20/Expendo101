@@ -73,7 +73,7 @@
         "select_category": "Please select a Category",
 
         "expense_amount_input": "🐼 Key in amount",
-        "expense_add_success": "Expense Registerd 😄",
+        "expense_add_success": "Expense Registered 😄",
         "expense_add_failure": "Failed to Register expense...😥",
 
         "recurring_add_prompt": "✨ Please Enter in the name of your new recurring payments followed by the amount, e.g. [netflix 9.90] ✨",
